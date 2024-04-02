@@ -1,0 +1,8 @@
+nome = input('digite seu nome e sobrenome: ')
+print(nome.upper())
+print(nome.lower())
+nome = nome.split()
+print(len(nome[0]))
+nome = ''.join(nome)
+print(len(nome))
+print(nome)
